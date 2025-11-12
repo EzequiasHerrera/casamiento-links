@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-primary: 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+
+.bg-darkorange{
+    background-color: #b34408
+}
+
+/*_____________________________________________*/
+@font-face {
+  font-family: "Perandory Regular";
+  src: url("../static/fonts/Perandory-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../static/fonts/weezerfont.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Perandory Regular", sans-serif;
+  letter-spacing: 6px;
+}
+
+.font {
+  font-family: "Perandory Regular", sans-serif;
+  letter-spacing: 3px;
+}
+
+.text-orange {
+  color: #cc662f;
+  font-family: "Perandory Regular", sans-serif;
+  letter-spacing: 3px;
+}
+
+.text-darkorange {
+  color: #934216;
+  font-family: "Perandory Regular", sans-serif;
+  letter-spacing: 3px;
+}
+
+.bg-orange {
+  /* background-color: #fd945a; */
+  background-size: cover;
+  background-image: url("../static/img/texture.png");
+}
