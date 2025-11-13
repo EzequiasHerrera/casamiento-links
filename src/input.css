@@ -1,13 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #b34408;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --color-primary: #cc662f;
+  --color-primary-dark: #b34408;
 }
 
 html,
@@ -17,21 +12,17 @@ body {
   font-weight: bold;
 }
 
-.bg-darkorange{
-    background-color: #b34408
-}
-
 /*_____________________________________________*/
 @font-face {
   font-family: "Perandory Regular";
-  src: url("../static/fonts/Perandory-Regular.otf") format("opentype");
+  src: url("./static/fonts/Perandory-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Century Gothic";
-  src: url("../static/fonts/weezerfont.ttf") format("opentype");
+  src: url("./static/fonts/weezerfont.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -49,20 +40,8 @@ h4 {
   letter-spacing: 3px;
 }
 
-.text-orange {
-  color: #cc662f;
-  font-family: "Perandory Regular", sans-serif;
-  letter-spacing: 3px;
-}
-
-.text-darkorange {
-  color: #934216;
-  font-family: "Perandory Regular", sans-serif;
-  letter-spacing: 3px;
-}
-
 .bg-orange {
   /* background-color: #fd945a; */
   background-size: cover;
-  background-image: url("../static/img/texture.png");
+  background-image: url("./static/img/texture.png");
 }

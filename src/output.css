@@ -12,6 +12,8 @@
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --font-weight-bold: 700;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -165,8 +167,8 @@
   }
 }
 @layer utilities {
-  .mb-2 {
-    margin-bottom: calc(var(--spacing) * 2);
+  .m-2 {
+    margin: calc(var(--spacing) * 2);
   }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
@@ -195,12 +197,45 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
+  .rounded-xl {
+    border-radius: var(--radius-xl);
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
   .bg-white {
     background-color: var(--color-white);
+  }
+  .p-1 {
+    padding: calc(var(--spacing) * 1);
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
+  }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
+  }
+  .text-center {
+    text-align: center;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -218,28 +253,20 @@
     outline-width: 1px;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 html, body {
   height: 100%;
   font-family: "Century Gothic", sans-serif;
   font-weight: bold;
 }
-.bg-darkorange {
-  background-color: #b34408;
-}
 @font-face {
   font-family: "Perandory Regular";
-  src: url("../static/fonts/Perandory-Regular.otf") format("opentype");
+  src: url("./static/fonts/Perandory-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Century Gothic";
-  src: url("../static/fonts/weezerfont.ttf") format("opentype");
+  src: url("./static/fonts/weezerfont.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -251,19 +278,9 @@ h1, h2, h3, h4 {
   font-family: "Perandory Regular", sans-serif;
   letter-spacing: 3px;
 }
-.text-orange {
-  color: #cc662f;
-  font-family: "Perandory Regular", sans-serif;
-  letter-spacing: 3px;
-}
-.text-darkorange {
-  color: #934216;
-  font-family: "Perandory Regular", sans-serif;
-  letter-spacing: 3px;
-}
 .bg-orange {
   background-size: cover;
-  background-image: url("../static/img/texture.png");
+  background-image: url("./static/img/texture.png");
 }
 @property --tw-border-style {
   syntax: "*";

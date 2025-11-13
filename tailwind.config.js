@@ -1,16 +1,10 @@
 module.exports = {
   content: [
-    "./index.html",
-    "./**/*.html",
-    "./css/**/*.css",
-    "./**/*.{js,jsx,ts,tsx}"
+    './src/**/*.{html,js}',
+    './public/**/*.html',
   ],
   theme: {
-    extend: {
-      colors: {
-        darkorange: "#b34408" // ahora puedes usar bg-darkorange, text-darkorange, etc.
-      }
-    }
+    extend: {},
   },
-  plugins: []
+  plugins: [],
 }
