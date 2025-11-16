@@ -264,6 +264,7 @@ h1, h2, h3, h4 {
 .bg-wedding {
   background-size: cover;
   background-position: top;
+  background-repeat: no-repeat;
   background-image: url("./static/img/background.jpg");
 }
 @property --tw-font-weight {

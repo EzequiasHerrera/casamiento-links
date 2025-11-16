@@ -1,47 +1,48 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #213327;
-  --color-primary-dark: #b34408;
+	--color-primary: #213327;
+	--color-primary-dark: #b34408;
 }
 
 html,
 body {
-  height: 100%;
-  font-family: "Century Gothic", sans-serif;
-  font-weight: bold;
+	height: 100%;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: bold;
 }
 
 /*_____________________________________________*/
 @font-face {
-  font-family: "Perandory Regular";
-  src: url("./static/fonts/Perandory-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+	font-family: "Perandory Regular";
+	src: url("./static/fonts/Perandory-Regular.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: "Century Gothic";
-  src: url("./static/fonts/weezerfont.ttf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+	font-family: "Century Gothic";
+	src: url("./static/fonts/weezerfont.ttf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Perandory Regular", sans-serif;
-  letter-spacing: 6px;
+	font-family: "Perandory Regular", sans-serif;
+	letter-spacing: 6px;
 }
 
 .font {
-  font-family: "Perandory Regular", sans-serif;
-  letter-spacing: 3px;
+	font-family: "Perandory Regular", sans-serif;
+	letter-spacing: 3px;
 }
 
 .bg-wedding {
-  background-size: cover;
-  background-position: top;
-  background-image: url("./static/img/background.jpg");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-image: url("./static/img/background.jpg");
 }
