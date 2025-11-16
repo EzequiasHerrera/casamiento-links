@@ -41,8 +41,10 @@ h4 {
 }
 
 .bg-wedding {
-	background-size: cover;
-	background-position: top;
-	background-repeat: no-repeat;
-	background-image: url("./static/img/background.jpg");
+  background-image: url("./static/img/background.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
