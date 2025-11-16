@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #cc662f;
+  --color-primary: #213327;
   --color-primary-dark: #b34408;
 }
 
@@ -40,8 +40,8 @@ h4 {
   letter-spacing: 3px;
 }
 
-.bg-orange {
-  /* background-color: #fd945a; */
+.bg-wedding {
   background-size: cover;
-  background-image: url("./static/img/texture.png");
+  background-position: top;
+  background-image: url("./static/img/background.jpg");
 }
