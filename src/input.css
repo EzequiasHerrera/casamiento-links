@@ -48,3 +48,9 @@ h4 {
   background-attachment: fixed;
   min-height: 100vh;
 }
+
+@media (width > 800px) {
+	.bg-wedding{ 
+		background-position: center -300px; 
+	}
+}
