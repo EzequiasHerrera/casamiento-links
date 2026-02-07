@@ -119,12 +119,6 @@ document.addEventListener("DOMContentLoaded", () => {
 			url: "https://www.westwing.com.br/prato-para-servir-morango-230622.html?simple=DEQ24CER33044-298498",
 		},
 		{
-			image: "https://static-images-now.westwing.com.br/s/76775-7083-74869-1-product2.jpg",
-			price: "R$ 139,90",
-			originalPrice: "R$ 229,90",
-			url: "https://www.westwing.com.br/jogo-de-bowls-organico-arauco-verde-76775.html?simple=DEQ23POR39642-96847",
-		},
-		{
 			image: "https://static-images-now.westwing.com.br/s/142557-0608-212571-1-product2.jpg",
 			price: "R$ 164,90",
 			originalPrice: "R$254,90",
