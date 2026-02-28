@@ -15,3 +15,21 @@ function copyToClipboard() {
         })
         .catch(err => console.error("Erro ao copiar:", err));
 }
+
+function copyPix() {
+    const endereco = document.getElementById("pix").textContent;
+
+    navigator.clipboard.writeText(pix)
+        .then(() => {
+            const toast = document.createElement("div");
+            toast.textContent = "PIX copiado";
+            toast.className = "fixed top-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-2 rounded shadow-lg text-sm font-medium z-50";
+
+            document.body.appendChild(toast);
+
+            setTimeout(() => {
+                toast.remove();
+            }, 2000);
+        })
+        .catch(err => console.error("Erro ao copiar:", err));
+}
