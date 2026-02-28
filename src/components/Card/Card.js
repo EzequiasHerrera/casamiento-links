@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			url: "https://www.westwing.com.br/rodo-de-pia-dobravel-com-cabo-em-bambu-focis-104136.html?simple=DEQ23LYO57918-129469",
 		},
 		{
-			image: "https://static-images-now.westwing.com.br/s/69409-0268-31688-1-product2.jpg",
+			image: "https://static-images-now.westwing.com.br/s/69409-2162-03488-1-product2.jpg",
 			price: "R$ 47,90",
 			originalPrice: "R$ 52,90",
 			url: "https://www.westwing.com.br/balde-de-gelo-esplanada-69409.html?simple=DEQ23NOV48446-88430",
@@ -57,13 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
 			originalPrice: "R$ 109,90",
 			url: "https://www.westwing.com.br/prato-para-servir-maca-230568.html?simple=DEQ24CER61532-298444",
 		},
-		{
-			image: "https://static-images-now.westwing.com.br/s/140685-8378-001371-1-product2.jpg",
-			price: "R$ 32,90",
-			originalPrice: "R$ 37,90",
-			url: "http://www.westwing.com.br/porta-guardanapo-valandur-grajau-140685.html",
-		},
-		
 		{
 			image: "https://static-images-now.westwing.com.br/s/314971-9549-237804-1-product2.jpg",
 			price: "R$ 57,90",
@@ -107,22 +100,10 @@ document.addEventListener("DOMContentLoaded", () => {
 			url: "https://www.westwing.com.br/tapete-de-banheiro-taty-lavanda-colorido-340395.html?simple=DEQ25WES18101-444896",
 		},
 		{
-			image: "https://static-images-now.westwing.com.br/s/308759-4775-276104-1-product2.jpg",
-			price: "R$ 157,90",
-			originalPrice: "R$ 287,90",
-			url: "https://www.westwing.com.br/jogo-de-tacas-para-vinho-buurano-future-308759.html?simple=DEQ25LHE30649-401672",
-		},
-		{
 			image: "https://static-images-now.westwing.com.br/s/230622-3395-894892-1-product2.jpg",
 			price: "R$ 64,90",
 			originalPrice: "R$ 79,90",
 			url: "https://www.westwing.com.br/prato-para-servir-morango-230622.html?simple=DEQ24CER33044-298498",
-		},
-		{
-			image: "https://static-images-now.westwing.com.br/s/142557-0608-212571-1-product2.jpg",
-			price: "R$ 164,90",
-			originalPrice: "R$254,90",
-			url: "https://www.westwing.com.br/jogo-de-cumbucas-organico-echo-branco-142557.html?simple=DEQ24POR28114-175212",
 		},
 	];
 
