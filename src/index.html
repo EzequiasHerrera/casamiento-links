@@ -1,72 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Nicki & Ze</title>
-        <link
-            rel="shortcut icon"
-            href="./static/ico/ico.ico"
-            type="image/x-icon" />
-        <script defer src="./static/js/copy.js"></script>
-        <link href="./output.css" rel="stylesheet" />
-    </head>
 
-    <body class="flex flex-col items-center min-h-screen bg-wedding pt-10">
-        <div class="flex m-5 mb-1">
-            <span>🎁</span>
-            <h1 class="text-primary text-2xl font-bold text-center">
-                Lista de presentes
-            </h1>
-            <span>🎁</span>
-        </div>
-        <p
-            class="text-center m-5 mb-3 bg-amber-50 p-3 rounded text-primary shadow max-w-80">
-            Todos os presentes são para compra online! E podem ser mandados
-            nesse endereço:
-        </p>
-        <p
-            id="endereco"
-            onclick="copyToClipboard()"
-            class="text-center m-5 mb-1 bg-amber-50 p-3 rounded text-primary cursor-pointer hover:scale-105 transition shadow">
-            📍 Rua Rocha Pombo, 950 Caiçara
-        </p>
-        <p
-            class="text-white m-5 mt-0 mb-5 text-center text-shadow-sm text-shadow-primary text-sm">
-            Clique aqui para copiar o endereço
-        </p>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicki & Ze</title>
+    <link rel="shortcut icon" href="./static/ico/ico.ico" type="image/x-icon" />
+    <script defer src="./static/js/copy.js"></script>
+    <link href="./output.css" rel="stylesheet" />
+</head>
 
-        <p
-            class="text-white mt-2 text-center text-shadow-sm text-shadow-primary text-2xl">
+<body class="flex flex-col items-center min-h-screen bg-wedding pt-10">
+    <div class="flex m-5 mb-1">
+        <span>🎁</span>
+        <h1 class="text-primary text-2xl font-bold text-center">
+            Lista de presentes
+        </h1>
+        <span>🎁</span>
+    </div>
+    <p class="text-center m-5 mb-3 bg-amber-50 p-3 rounded text-primary shadow max-w-80">
+        Todos os presentes são para compra online! E podem ser mandados
+        nesse endereço:
+    </p>
+    <p id="endereco" onclick="copyToClipboard()"
+        class="text-center m-5 mb-1 bg-amber-50 p-3 rounded text-primary cursor-pointer hover:scale-105 transition shadow">
+        📍 Rua Rocha Pombo, 950 Caiçara
+    </p>
+    <p class="text-white m-5 mt-0 mb-5 text-center text-shadow-sm text-shadow-primary text-sm">
+        Clique aqui para copiar o endereço
+    </p>
+
+    <div class="m-3 p-3 rounded bg-gray-900 shadow">
+        <p class="text-white mt-2 text-center text-shadow-sm text-shadow-primary text-2xl">
             NOSSO PIX
         </p>
-        <p
-            id="pix"
-            onclick="copyPix()"
+        <p id="pix" onclick="copyPix()"
             class="text-center m-5 mb-1 bg-amber-50 p-3 rounded text-primary cursor-pointer hover:scale-105 transition shadow">
             nicolegerkee@gmail.com
         </p>
-        <p
-            class="text-white m-5 mt-0 mb-5 text-center text-shadow-sm text-shadow-primary text-sm">
+        <p class="text-white m-5 mt-0 mb-5 text-center text-shadow-sm text-shadow-primary text-sm">
             Clique aqui para copiar o nosso PIX
         </p>
+    </div>
 
-        <div class="flex flex-col md:flex-row mb-5 gap-2 md:gap-5">
-            <a
-                class="flex items-center bg-white px-5 py-1 h-18 md:h-50 rounded hover:scale-105 hover:bg-amber-100 transition-transform shadow"
-                href="https://lista.camicado.com.br/nickieze"
-                ><img class="w-20" src="./static/ico/camicado_logo.png" alt=""
-            /></a>
-            <a
-                class="flex items-center bg-white px-5 py-1 h-18 md:h-50 rounded hover:scale-105 hover:bg-amber-100 transition-transform shadow"
-                href="https://lista.havan.com.br/Convidado/ItensListaPresente/912329"
-                ><img class="w-20" src="./static/ico/havan_logo.png" alt=""
-            /></a>
-            <a
-                class="flex items-center bg-white px-5 py-1 h-18 md:h-50 rounded hover:scale-105 hover:bg-amber-100 transition-transform shadow"
-                href="./pages/westwings.html"
-                ><img class="w-20" src="./static/ico/westwing-logo.svg" alt=""
-            /></a>
-        </div>
-    </body>
+    <div class="flex flex-col md:flex-row mb-5 gap-2 md:gap-5">
+        <a class="flex items-center bg-white px-5 py-1 h-18 md:h-50 rounded hover:scale-105 hover:bg-amber-100 transition-transform shadow"
+            href="https://lista.camicado.com.br/nickieze"><img class="w-20" src="./static/ico/camicado_logo.png"
+                alt="" /></a>
+        <a class="flex items-center bg-white px-5 py-1 h-18 md:h-50 rounded hover:scale-105 hover:bg-amber-100 transition-transform shadow"
+            href="https://lista.havan.com.br/Convidado/ItensListaPresente/912329"><img class="w-20"
+                src="./static/ico/havan_logo.png" alt="" /></a>
+        <a class="flex items-center bg-white px-5 py-1 h-18 md:h-50 rounded hover:scale-105 hover:bg-amber-100 transition-transform shadow"
+            href="./pages/westwings.html"><img class="w-20" src="./static/ico/westwing-logo.svg" alt="" /></a>
+    </div>
+</body>
+
 </html>
