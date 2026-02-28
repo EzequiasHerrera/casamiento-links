@@ -240,6 +240,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-12 {
+    width: calc(var(--spacing) * 12);
+  }
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
@@ -298,6 +301,9 @@
   .rounded-r-3xl {
     border-top-right-radius: var(--radius-3xl);
     border-bottom-right-radius: var(--radius-3xl);
+  }
+  .bg-\[\#EE4D2D\] {
+    background-color: #EE4D2D;
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
@@ -421,6 +427,13 @@
         --tw-scale-y: 105%;
         --tw-scale-z: 105%;
         scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
+    }
+  }
+  .hover\:bg-\[\#ea6347\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #ea6347;
       }
     }
   }
