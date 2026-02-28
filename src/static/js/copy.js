@@ -17,7 +17,7 @@ function copyToClipboard() {
 }
 
 function copyPix() {
-    const endereco = document.getElementById("pix").textContent;
+    const pix = document.getElementById("pix").textContent;
 
     navigator.clipboard.writeText(pix)
         .then(() => {
