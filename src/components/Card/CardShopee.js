@@ -28,13 +28,6 @@ async function generateCard(product) {
 document.addEventListener("DOMContentLoaded", () => {
 	const products = [
 		{
-			title: "Producto no identificado (Enlace privado o caducado)",
-			image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mcrvuaapax3555.webp",
-			price: "R$ 599,90",
-			originalPrice: "N/A",
-			url: "https://shopee.com.br/product/375177642/22394277846?d_id=0a3ea&uls_trackid=551rbe8k00qf&utm_content=G7dQNxmVAxSE5WQKu5kTYYhn8wZ",
-		},
-		{
 			title: "Porta Chaves Parede Decorativo madeira com 3 Ganchos compacto mini",
 			image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m5nbznykvkqa60.webp",
 			price: "R$ 48,90",
